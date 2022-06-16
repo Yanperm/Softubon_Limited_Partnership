@@ -22,4 +22,28 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+	public function sendmail(){
+		$email = "ceo@softubon.co.th";
+		
+		$config = array(
+			'useragent' => 'softubon.co.th',
+			'protocol' => 'smtp',
+			'smtp_host' => 'smtp.postmarkapp.com',
+			'smtp_port' => 587,
+			'smtp_user' => '63356043-c8ca-4e78-915b-ebef883d0f47',
+			'smtp_pass' => '63356043-c8ca-4e78-915b-ebef883d0f47',
+			'smtp_crypto' => 'TLS',
+			'mailtype' => 'html',
+			'charset' => 'utf-8',
+		);
+		$this->load->library('email', $config);
+		$this->email->set_newline("\r\n");
+		$this->email->from('info@softubon.co.th', "ห้างหุ้นส่วนจำกัด ซอฟต์อุบล");
+		$this->email->to($email);
+		$this->email->subject("ยืนยันการชำระเงิน");
+		$this->email->message("ยืนยันการชำระเงินเบี้ยประกันยอดที่ชำระ 7,500 บาท");
+		$this->email->send();
+		
+		redirect(base_url());		
+	}
 }
