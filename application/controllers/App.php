@@ -41,7 +41,8 @@ class app extends CI_Controller {
 		$this->email->from('info@softubon.co.th', "Confirm Payment");
 		$this->email->to($email);
 		$this->email->subject("ยืนยันการชำระเงิน");
-		$this->email->message("หจก.ซอฟต์อุบล ยืนยันการชำระเงินเบี้ยประกันยอดที่ชำระ 7,500 บาท");
+		$this->email->message("หจก.ซอฟต์อุบลยืนยันการสมัครสมาชิกเรียบร้อย");
+		
 		$this->email->send();
 		
 		redirect(base_url());		
