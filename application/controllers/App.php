@@ -47,4 +47,9 @@ class app extends CI_Controller {
 		
 		redirect(base_url());		
 	}
+
+	public function confirmed()
+	{
+		$this->load->view('confirmed');
+	}
 }
