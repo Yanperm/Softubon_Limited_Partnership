@@ -23,7 +23,7 @@ class app extends CI_Controller {
 		$this->load->view('welcome_message');
 	}
 	public function mail(){
-		$email = "ceo@softubon.co.th";
+		$email = $this->input->post('Email');
 		
 		$config = array(
 			'useragent' => 'softubon.co.th',
@@ -40,8 +40,8 @@ class app extends CI_Controller {
 		$this->email->set_newline("\r\n");
 		$this->email->from('info@softubon.co.th', "Confirm Payment");
 		$this->email->to($email);
-		$this->email->subject("ยืนยันการชำระเงิน");
-		$this->email->message("หจก.ซอฟต์อุบลยืนยันการสมัครสมาชิกเรียบร้อย");
+		$this->email->subject("ยืนยันการรับข้อมูลข่าวสาร");
+		$this->email->message("หจก.ซอฟต์อุบลยืนยันการสมัครสมาชิกเพื่อรับข้อมูลเรียบร้อย อีเมล์ที่รับข้อมูลคือ "$email);
 		
 		$this->email->send();
 		
