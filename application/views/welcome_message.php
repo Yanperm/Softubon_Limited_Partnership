@@ -140,7 +140,7 @@ footer {
 <body class="min-vh-100 d-flex flex-column">
     <main class="my-auto">
         <img src="<?php echo base_url(); ?>assets/coming-soon.jpeg" alt="Coming soon" class="header-img img-fluid">
-        <h1 class="page-title">We are launching soon. Please reload after days.</h1>
+        <h1 class="page-title">We are launching soon.</h1>
         <p class="page-description">สินค้าไอที,พัฒนาซอฟต์แวร์,เทคโนโลยีสารสนเทศ</p>
         <form class="form-inline mail-capture-form">
             <div class="form-group">
