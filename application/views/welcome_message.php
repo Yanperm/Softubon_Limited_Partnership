@@ -141,7 +141,7 @@ footer {
     <main class="my-auto">
         <img src="<?php echo base_url(); ?>assets/coming-soon.jpeg" alt="Coming soon" class="header-img img-fluid">
         <h1 class="page-title">We are launching soon. Please reload after days.</h1>
-        <p class="page-description">Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiu sit amet consectetur  </p>
+        <p class="page-description">สินค้าไอที พัฒนาซอฟต์แวร์ ให้คำปรึกษาทางเทคโนโลยีสารสนเทศ</p>
         <form class="form-inline mail-capture-form">
             <div class="form-group">
                 <label for="Email" class="sr-only">Email</label>
