@@ -139,7 +139,7 @@ footer {
 
 <body class="min-vh-100 d-flex flex-column">
     <main class="my-auto">
-        <img src="assets/images/coming-soon.jpg" alt="Coming soon" class="header-img img-fluid">
+        <img src="<?php echo base_url(); ?>assets/coming-soon.jpeg" alt="Coming soon" class="header-img img-fluid">
         <h1 class="page-title">We are launching soon. Please reload after days.</h1>
         <p class="page-description">Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiu sit amet consectetur  </p>
         <form class="form-inline mail-capture-form">
