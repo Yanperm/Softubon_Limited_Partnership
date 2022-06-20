@@ -38,7 +38,7 @@ class app extends CI_Controller {
 		);
 		$this->load->library('email', $config);
 		$this->email->set_newline("\r\n");
-		$this->email->from('info@softubon.co.th', "Confirm Payment");
+		$this->email->from('info@softubon.co.th', "Confirmed");
 		$this->email->to($email);
 		$this->email->subject("ยืนยันการรับข้อมูลข่าวสาร");
 		$this->email->message("หจก.ซอฟต์อุบลยืนยันการสมัครสมาชิกเพื่อรับข้อมูลเรียบร้อย อีเมล์ที่รับข้อมูลคือ ".$email);
