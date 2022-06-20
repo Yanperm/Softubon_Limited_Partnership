@@ -1,89 +1,163 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Softubon.co.th</title>
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+	<style>
+		body {
+  font-family: 'Karla', sans-serif;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center; }
+  @media (max-width: 767px) {
+    body {
+      background-position: bottom right; } }
 
-	<style type="text/css">
+main {
+  max-width: 495px;
+  padding: 15px; }
 
-	::selection { background-color: #E13300; color: white; }
-	::-moz-selection { background-color: #E13300; color: white; }
+.header-img {
+  margin-bottom: 37px;
+  max-width: 413px;
+  width: 100%; }
 
-	body {
-		background-color: #fff;
-		margin: 40px;
-		font: 13px/20px normal Helvetica, Arial, sans-serif;
-		color: #4F5155;
-	}
+.page-title {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 22px; }
+  @media (max-width: 767px) {
+    .page-title {
+      font-size: 25px; } }
 
-	a {
-		color: #003399;
-		background-color: transparent;
-		font-weight: normal;
-	}
+.page-description {
+  font-size: 18px;
+  color: #a1a9af;
+  margin-bottom: 37px; }
+  @media (max-width: 767px) {
+    .page-description {
+      font-size: 14px; } }
 
-	h1 {
-		color: #444;
-		background-color: transparent;
-		border-bottom: 1px solid #D0D0D0;
-		font-size: 19px;
-		font-weight: normal;
-		margin: 0 0 14px 0;
-		padding: 14px 15px 10px 15px;
-	}
+.mail-capture-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 37px; }
+  .mail-capture-form .form-group {
+    margin-right: 11px;
+    max-width: 302px;
+    margin-bottom: 0; }
+    @media (max-width: 767px) {
+      .mail-capture-form .form-group {
+        max-width: 180px; } }
+  .mail-capture-form .form-control {
+    background-color: #eff5f9;
+    border-radius: 24px;
+    border: 0;
+    height: 48px;
+    padding: 16px 30px;
+    font-size: 14px;
+    color: #000000; }
+    @media (max-width: 767px) {
+      .mail-capture-form .form-control {
+        padding: 12px 20px;
+        height: 42px; } }
+  .mail-capture-form .btn-submit {
+    padding: 16px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 23.5px;
+    line-height: 15px;
+    background-color: #ffba97;
+    background: linear-gradient(90deg, #ffba97 0%, #fe7795 100%);
+    height: 48px;
+    border: 0; }
+    @media (max-width: 767px) {
+      .mail-capture-form .btn-submit {
+        padding: 14px 15px;
+        font-size: 11px;
+        height: 42px; } }
 
-	code {
-		font-family: Consolas, Monaco, Courier New, Courier, monospace;
-		font-size: 12px;
-		background-color: #f9f9f9;
-		border: 1px solid #D0D0D0;
-		color: #002166;
-		display: block;
-		margin: 14px 0 14px 0;
-		padding: 12px 10px 12px 10px;
-	}
+.notify-btn {
+  padding: 15px 80px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  outline: none;
+  border: 0;
+  margin-bottom: 72px; }
+  @media (max-width: 767px) {
+    .notify-btn {
+      padding: 15px 50px;
+      margin-bottom: 30px; } }
 
-	#body {
-		margin: 0 15px 0 15px;
-	}
+.footer-social-links .social-link {
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #d5dae2;
+  color: #000000;
+  margin-right: 8px;
+  margin-left: 8px;
+  transition: all 0.3s ease-in-out; }
+  .footer-social-links .social-link:hover {
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff; }
 
-	p.footer {
-		text-align: right;
-		font-size: 11px;
-		border-top: 1px solid #D0D0D0;
-		line-height: 32px;
-		padding: 0 10px 0 10px;
-		margin: 20px 0 0 0;
-	}
+footer {
+  font-size: 14px;
+  color: #919aa3;
+  padding: 40px 0; }
+  @media (max-width: 767px) {
+    footer {
+      padding: 36px 0; } }
 
-	#container {
-		margin: 10px;
-		border: 1px solid #D0D0D0;
-		box-shadow: 0 0 8px #D0D0D0;
-	}
+/*# sourceMappingURL=bd-coming-soon.css.map */
 	</style>
 </head>
-<body>
 
-<div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
-
-	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
-
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
-	</div>
-
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
-</div>
-
+<body class="min-vh-100 d-flex flex-column">
+    <main class="my-auto">
+        <img src="assets/images/coming-soon.jpg" alt="Coming soon" class="header-img img-fluid">
+        <h1 class="page-title">We are launching soon. Please reload after days.</h1>
+        <p class="page-description">Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiu sit amet consectetur  </p>
+        <form class="form-inline mail-capture-form">
+            <div class="form-group">
+                <label for="Email" class="sr-only">Email</label>
+                <input type="email" name="Email" id="Email" class="form-control" placeholder="email address">
+            </div>
+            <button type="submit" class="btn btn-submit">Notify Me</button>
+        </form>
+        <nav class="footer-social-links">
+            <a href="#!" class="social-link"><i class="mdi mdi-facebook-box"></i></a>
+            <a href="#!" class="social-link"><i class="mdi mdi-twitter"></i></a>
+            <a href="#!" class="social-link"><i class="mdi mdi-google"></i></a>
+        </nav>
+    </main>
+    <footer>
+        Copyright 2022
+    </footer>
 </body>
+
 </html>
