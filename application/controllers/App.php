@@ -45,7 +45,7 @@ class app extends CI_Controller {
 		
 		$this->email->send();
 		
-		redirect(base_url());		
+		$this->load->view('confirmed');		
 	}
 
 	public function confirmed()
