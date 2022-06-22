@@ -4,6 +4,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="ห้างหุ้นส่วนจำกัด ซอฟต์อุบล,สินค้าไอที,พัฒนาซอฟต์แวร์,ประกันภัยทุกประเภท">
+    <meta name="keywords" content="สินค้าไอที,พัฒนาซอฟต์แวร์,ประกันภัยทุกประเภท,วางระบบไอที">
+    <meta name="author" content="ห้างหุ้นส่วนจำกัด ซอฟต์อุบล">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Softubon.co.th | ห้างหุ้นส่วนจำกัด ซอฟต์อุบล | สินค้าไอที | พัฒนาซอฟต์แวร์ | ประกันภัยทุกประเภท</title>
