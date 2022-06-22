@@ -161,7 +161,7 @@ footer {
         </nav>
     </main>
     <footer>
-        Copyright 2022
+        Copyright 2022 นิติบุคคลผู้เสียภาษี 0343564005061
     </footer>
 </body>
 
