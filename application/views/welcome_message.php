@@ -1,7 +1,5 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="ห้างหุ้นส่วนจำกัด ซอฟต์อุบล,สินค้าไอที,พัฒนาซอฟต์แวร์,ประกันภัยทุกประเภท">
@@ -14,9 +12,9 @@
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="<?php echo base_url('assets/style.css'); ?>"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo base_url('assets/style.css'); ?>"/>
 </head>
 
 <body class="min-vh-100 d-flex flex-column">
