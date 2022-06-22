@@ -29,6 +29,7 @@
             </div>
             <button type="submit" class="btn btn-submit">Notify Me</button>
         </form>
+        <a href="https://lin.ee/lW4BTft"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน" height="36" border="0"></a>
         <nav class="footer-social-links">
             <a href="#!" class="social-link"><i class="mdi mdi-facebook-box"></i></a>
             <a href="#!" class="social-link"><i class="mdi mdi-twitter"></i></a>
