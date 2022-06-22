@@ -9,7 +9,6 @@
     <meta name="author" content="ห้างหุ้นส่วนจำกัด ซอฟต์อุบล">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="refresh" content="30">
     <title>Softubon.co.th | ห้างหุ้นส่วนจำกัด ซอฟต์อุบล | สินค้าไอที | พัฒนาซอฟต์แวร์ | ประกันภัยทุกประเภท</title>
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
