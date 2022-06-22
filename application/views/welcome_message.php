@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="<?php echo echo base_url('assets/style.css') ?>"/>
+<link rel="stylesheet" href="<?php echo base_url('assets/style.css'); ?>"/>
 </head>
 
 <body class="min-vh-100 d-flex flex-column">
