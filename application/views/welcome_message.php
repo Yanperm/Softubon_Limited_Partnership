@@ -22,7 +22,8 @@
         <img src="<?php echo base_url(); ?>assets/coming-soon.jpeg" alt="Coming soon" class="header-img img-fluid">
         <h1 class="page-title">ห้างหุ้นส่วนจำกัด ซอฟต์อุบล</h1>
         <p class="page-description">สินค้าไอที,พัฒนาซอฟต์แวร์,ประกันภัยทุกประเภท</p>
-        <a href="https://lin.ee/lW4BTft"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน" height="36" border="0"></a>
+        <p class="page-description"><a href="https://lin.ee/lW4BTft"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน" height="36" border="0"></a></p>
+        
         <form class="form-inline mail-capture-form" action="<?php echo base_url('app/mail'); ?>" method="POST">
             <div class="form-group">
                 <label for="Email" class="sr-only">Email</label>
