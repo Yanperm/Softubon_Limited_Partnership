@@ -15,6 +15,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url('assets/style.css'); ?>"/>
+    <!-- Global site tag (gtag.js) - Google Ads: 10934769681 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10934769681"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10934769681');
+</script>
+
 </head>
 
 <body class="min-vh-100 d-flex flex-column">
